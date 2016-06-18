@@ -1,0 +1,8 @@
+<div>
+<p>Photo of the day</p>
+<%= image_tag @image.image.url%>
+<p>
+<%= @image.description %>
+</p>
+</div>
+<%= link_to 'Submit a new photo', root_path %>
